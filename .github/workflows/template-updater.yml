@@ -38,7 +38,7 @@ jobs:
           Please verify if these changes are valid.
         labels: |
           automatic PR
-        reviewers: bedroesb
+        reviewers: korbinib
         branch: checklist_update
         base: main
 
