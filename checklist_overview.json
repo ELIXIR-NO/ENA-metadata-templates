@@ -366,5 +366,21 @@
         "dataType": "CHECKLIST",
         "status": 4,
         "statusDescription": "public"
+    },
+    {
+        "accession": "ERC000059",
+        "description": "This is the ancient DNA checklist compiled at ENA. It is based on the various Genomic Standards Consortium(GSC) packages for reporting of measurements and observations obtained from the environment where the sample was obtained, with many additional fields from the proposed MinAS, and a few more.",
+        "name": "ena_ancient_dna",
+        "dataType": "CHECKLIST",
+        "status": 4,
+        "statusDescription": "public"
+    },
+    {
+        "accession": "ERC000060",
+        "description": "This is general checklist for barcode marker sequence data. It is used for automatic sequence and metadata feeds from BOLD for example.",
+        "name": "ena_marker_sequence_checklist",
+        "dataType": "CHECKLIST",
+        "status": 4,
+        "statusDescription": "public"
     }
 ]
