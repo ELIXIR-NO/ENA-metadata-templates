@@ -905,7 +905,7 @@
                 "cardinality": "optional",
                 "description": "Duration of the exposure of the subject to an infected human or animal. If multiple exposures are applicable, please state their duration in the same order in which you reported the exposure in the field 'subject exposure'. Example: 1 day; 0.33 days",
                 "cv": [],
-                "units": "year",
+                "units": "day",
                 "field_type": "TEXT_FIELD",
                 "regex": ""
             },
@@ -914,7 +914,7 @@
                 "cardinality": "optional",
                 "description": "The total amount or size (volume (ml), mass (g) or area (m2) ) of sample collected.",
                 "cv": [],
-                "units": "m3",
+                "units": "kg",
                 "field_type": "TEXT_FIELD",
                 "regex": "(0|((0\\.)|([1-9][0-9]*\\.?))[0-9]*)([Ee][+-]?[0-9]+)?"
             },
@@ -1540,7 +1540,7 @@
                 "cardinality": "optional",
                 "description": "The vertical distance below local surface, e.g. for sediment or soil samples depth is measured from sediment or soil surface, respectively. Depth can be reported as an interval for subsurface samples.",
                 "cv": [],
-                "units": "mm",
+                "units": "m",
                 "field_type": "TEXT_FIELD",
                 "regex": "((0|((0\\.)|([1-9][0-9]*\\.?))[0-9]*)([Ee][+-]?[0-9]+)?)|((^not applicable$)|(^not collected$)|(^not provided$)|(^restricted access$)|(^missing: control sample$)|(^missing: sample group$)|(^missing: synthetic construct$)|(^missing: lab stock$)|(^missing: third party data$)|(^missing: data agreement established pre-2023$)|(^missing: endangered species$)|(^missing: human-identifiable$)|(^missing$))"
             }

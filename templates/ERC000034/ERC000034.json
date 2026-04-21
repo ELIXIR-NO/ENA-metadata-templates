@@ -901,7 +901,7 @@
                 "cardinality": "recommended",
                 "description": "The dose of the treatment agent used.",
                 "cv": [],
-                "units": "picomolar",
+                "units": "molar",
                 "field_type": "TEXT_FIELD",
                 "regex": ""
             },

@@ -618,7 +618,7 @@
                 "cardinality": "optional",
                 "description": "Duration of the exposure of the subject to an infected human or animal. If multiple exposures are applicable, please state their duration in the same order in which you reported the exposure in the field 'subject exposure'. Example: 1 day; 0.33 days",
                 "cv": [],
-                "units": "year",
+                "units": "day",
                 "field_type": "TEXT_FIELD",
                 "regex": ""
             },
