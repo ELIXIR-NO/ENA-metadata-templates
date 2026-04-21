@@ -732,7 +732,7 @@
                 "cardinality": "optional",
                 "description": "Refers to the mesh/pore size used to retain the sample. Materials smaller than the size threshold are excluded from the sample",
                 "cv": [],
-                "units": "nm",
+                "units": "\u00b5m",
                 "field_type": "TEXT_FIELD",
                 "regex": "(0|((0\\.)|([1-9][0-9]*\\.?))[0-9]*)"
             },
@@ -741,7 +741,7 @@
                 "cardinality": "optional",
                 "description": "Refers to the mesh/pore size used to pre-filter/pre-sort the sample. Materials larger than the size threshold are excluded from the sample",
                 "cv": [],
-                "units": "nm",
+                "units": "\u00b5m",
                 "field_type": "TEXT_FIELD",
                 "regex": "(0|((0\\.)|([1-9][0-9]*\\.?))[0-9]*)([Ee][+-]?[0-9]+)?"
             },
@@ -1334,7 +1334,7 @@
                 "cardinality": "optional",
                 "description": "For time-course research studies involving samples of the food commodity, indicate the total duration of the time-course study.",
                 "cv": [],
-                "units": "minute",
+                "units": "year",
                 "field_type": "TEXT_FIELD",
                 "regex": "(0|((0\\.)|([1-9][0-9]*\\.?))[0-9]*)([Ee][+-]?[0-9]+)?"
             },
@@ -1397,7 +1397,7 @@
                     "wall",
                     "window"
                 ],
-                "units": null,
+                "units": "",
                 "field_type": "TEXT_CHOICE_FIELD",
                 "regex": ""
             },
@@ -1464,7 +1464,7 @@
                 "cardinality": "optional",
                 "description": "The relative humidity of the fermented food fermentation process.",
                 "cv": [],
-                "units": "%",
+                "units": "g/m3",
                 "field_type": "TEXT_FIELD",
                 "regex": "(0|((0\\.)|([1-9][0-9]*\\.?))[0-9]*)"
             },
@@ -1482,7 +1482,7 @@
                 "cardinality": "optional",
                 "description": "The total amount or size (volume (ml), mass (g) or area (m2) ) of sample collected.",
                 "cv": [],
-                "units": "kg",
+                "units": "m3",
                 "field_type": "TEXT_FIELD",
                 "regex": "(0|((0\\.)|([1-9][0-9]*\\.?))[0-9]*)([Ee][+-]?[0-9]+)?"
             },
@@ -1872,7 +1872,7 @@
                 "cardinality": "optional",
                 "description": "the height of subject",
                 "cv": [],
-                "units": "m",
+                "units": "mm",
                 "field_type": "TEXT_FIELD",
                 "regex": "((0|((0\\.)|([1-9][0-9]*\\.?))[0-9]*)([Ee][+-]?[0-9]+)?)|((^not applicable$)|(^not collected$)|(^not provided$)|(^restricted access$)|(^missing: control sample$)|(^missing: sample group$)|(^missing: synthetic construct$)|(^missing: lab stock$)|(^missing: third party data$)|(^missing: data agreement established pre-2023$)|(^missing: endangered species$)|(^missing: human-identifiable$))"
             },
@@ -1881,7 +1881,7 @@
                 "cardinality": "optional",
                 "description": "the length of subject",
                 "cv": [],
-                "units": "m",
+                "units": "mm",
                 "field_type": "TEXT_FIELD",
                 "regex": "(0|((0\\.)|([1-9][0-9]*\\.?))[0-9]*)([Ee][+-]?[0-9]+)?"
             },
@@ -1935,7 +1935,7 @@
                 "cardinality": "optional",
                 "description": "amount of water vapour in the air, at the time of sampling",
                 "cv": [],
-                "units": "%",
+                "units": "g/m3",
                 "field_type": "TEXT_FIELD",
                 "regex": "(0|((0\\.)|([1-9][0-9]*\\.?))[0-9]*)([Ee][+-]?[0-9]+)?"
             },
@@ -1971,7 +1971,7 @@
                 "cardinality": "optional",
                 "description": "speed of wind measured at the time of sampling",
                 "cv": [],
-                "units": "km/h",
+                "units": "m/s",
                 "field_type": "TEXT_FIELD",
                 "regex": "(0|((0\\.)|([1-9][0-9]*\\.?))[0-9]*)([Ee][+-]?[0-9]+)?"
             },
@@ -2040,7 +2040,7 @@
                     "Quarterly",
                     "Weekly"
                 ],
-                "units": "minute",
+                "units": "year",
                 "field_type": "TEXT_CHOICE_FIELD",
                 "regex": ""
             },
@@ -2112,7 +2112,7 @@
                 "cardinality": "optional",
                 "description": "Total nitrogen content of the sample",
                 "cv": [],
-                "units": "\u00b5g/L",
+                "units": "\u00b5mol/L",
                 "field_type": "TEXT_FIELD",
                 "regex": "(0|((0\\.)|([1-9][0-9]*\\.?))[0-9]*)([Ee][+-]?[0-9]+)?"
             },
@@ -2139,7 +2139,7 @@
                 "cardinality": "optional",
                 "description": "Number of bacteria in sample, as defined by bacteria density (http://purl.obolibrary.org/obo/GENEPIO_0000043).",
                 "cv": [],
-                "units": "%",
+                "units": "g/m3",
                 "field_type": "TEXT_FIELD",
                 "regex": ""
             },
@@ -2221,7 +2221,7 @@
                 "cardinality": "optional",
                 "description": "Average humidity of the region throughout the growing season.",
                 "cv": [],
-                "units": "%",
+                "units": "g/m3",
                 "field_type": "TEXT_FIELD",
                 "regex": "(0|((0\\.)|([1-9][0-9]*\\.?))[0-9]*)([Ee][+-]?[0-9]+)?"
             },
@@ -2293,7 +2293,7 @@
                 "cardinality": "optional",
                 "description": "measurement of dry mass",
                 "cv": [],
-                "units": "kg",
+                "units": "mg",
                 "field_type": "TEXT_FIELD",
                 "regex": "(0|((0\\.)|([1-9][0-9]*\\.?))[0-9]*)([Ee][+-]?[0-9]+)?"
             },
@@ -2445,7 +2445,7 @@
                 "cardinality": "optional",
                 "description": "The time duration of the fermented food fermentation process.",
                 "cv": [],
-                "units": "minute",
+                "units": "year",
                 "field_type": "TEXT_FIELD",
                 "regex": "(0|((0\\.)|([1-9][0-9]*\\.?))[0-9]*)"
             },
@@ -2490,7 +2490,7 @@
                 "cardinality": "optional",
                 "description": "Sample incubation duration if unpublished or unvalidated method is used. Indicate the timepoint written in ISO 8601 format.",
                 "cv": [],
-                "units": "minute",
+                "units": "year",
                 "field_type": "TEXT_FIELD",
                 "regex": "(0|((0\\.)|([1-9][0-9]*\\.?))[0-9]*)"
             },
@@ -2792,7 +2792,7 @@
                 "cardinality": "optional",
                 "description": "Volume (ml) or mass (g) of total collected sample processed for DNA extraction. Note: total sample collected should be entered under the term 'sample size'.",
                 "cv": [],
-                "units": "mL",
+                "units": "ng",
                 "field_type": "TEXT_FIELD",
                 "regex": "(0|((0\\.)|([1-9][0-9]*\\.?))[0-9]*)([Ee][+-]?[0-9]+)?"
             },
@@ -3134,7 +3134,7 @@
                 "cardinality": "optional",
                 "description": "The storage duration of the food commodity by the consumer, prior to onset of illness or sample collection. Indicate the timepoint written in ISO 8601 format.",
                 "cv": [],
-                "units": "minute",
+                "units": "year",
                 "field_type": "TEXT_FIELD",
                 "regex": "(0|((0\\.)|([1-9][0-9]*\\.?))[0-9]*)([Ee][+-]?[0-9]+)?"
             },
@@ -3143,7 +3143,7 @@
                 "cardinality": "optional",
                 "description": "The duration of time (days) that the antimicrobial was administered to the food animal.",
                 "cv": [],
-                "units": "minute",
+                "units": "year",
                 "field_type": "TEXT_FIELD",
                 "regex": "(0|((0\\.)|([1-9][0-9]*\\.?))[0-9]*)"
             },
@@ -3260,7 +3260,7 @@
                 "cardinality": "optional",
                 "description": "The age of the food source host organism. Depending on the type of host organism, age may be more appropriate to report in days, weeks, or years.",
                 "cv": [],
-                "units": "day",
+                "units": "year",
                 "field_type": "TEXT_FIELD",
                 "regex": "(0|((0\\.)|([1-9][0-9]*\\.?))[0-9]*)"
             },
@@ -3368,7 +3368,7 @@
                 "cardinality": "optional",
                 "description": "The vertical distance below local surface, e.g. for sediment or soil samples depth is measured from sediment or soil surface, respectively. Depth can be reported as an interval for subsurface samples.",
                 "cv": [],
-                "units": "m",
+                "units": "mm",
                 "field_type": "TEXT_FIELD",
                 "regex": "((0|((0\\.)|([1-9][0-9]*\\.?))[0-9]*)([Ee][+-]?[0-9]+)?)|((^not applicable$)|(^not collected$)|(^not provided$)|(^restricted access$)|(^missing: control sample$)|(^missing: sample group$)|(^missing: synthetic construct$)|(^missing: lab stock$)|(^missing: third party data$)|(^missing: data agreement established pre-2023$)|(^missing: endangered species$)|(^missing: human-identifiable$)|(^missing$))"
             },
