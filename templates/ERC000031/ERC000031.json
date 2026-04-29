@@ -925,7 +925,7 @@
                     "wall",
                     "window"
                 ],
-                "units": null,
+                "units": "",
                 "field_type": "TEXT_CHOICE_FIELD",
                 "regex": ""
             },
